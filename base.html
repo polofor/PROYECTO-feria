@@ -1,0 +1,205 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/112375c2c5.js" crossorigin="anonymous"></script>
+        <style>
+
+            #nav{
+                width: auto;
+                height: 80px;
+                background-color: #006c84;
+                
+            }
+    
+            #div1{
+                width: 65%;
+                height: auto;
+                background-color: rgb(216, 216, 216);
+                border-radius: 5%;
+                margin:30px;
+            }
+    
+            #div2{
+                width: 25%;
+                height: 300px;
+                background-color: rgb(216, 216, 216);
+                border-radius: 5%;
+                margin:30px;
+                font-weight: bold;
+                line-height: 190%;
+            }
+    
+            #foot{
+                width: auto;
+                height: 330px;
+                background-color: #006c84;
+                clear: both;   
+            }
+            nav div img{
+                height: 60px;
+                width: 60px;
+                margin: 8px;
+                float: left;
+            }
+            nav div h1{
+                float: right;
+                font-size: 20px;
+                margin: 2%;
+            }
+            a{
+                color: white;
+                text-decoration: none;
+            }
+            footer ul{
+                float:left;
+                
+                font-size: 18px;
+                color: white;
+                list-style: none;
+                font-weight: lighter;
+                margin-top: 30px;
+                
+            }
+            footer ul li:hover{
+                transform: scale(1.1);
+                transition: 0.4s;
+            }
+            footer ul li a:hover{
+                color: #f5be41;
+                transition:0.4s;
+            }
+            footer ul li a{
+                transition:0.4s
+
+            }
+            footer ul li{
+                margin-top: 10px;
+                transition:0.4s;
+            }
+            .desarrolladores{
+                float:left;
+                margin-left: 30px;
+                margin-right:30px;
+                font-size: 15px;
+                color: gainsboro;
+                display: inline;
+                
+            }
+            .tituloh1{
+                text-align: center;
+            }
+            .subtitulo{
+                text-align: left;
+                color:gray;
+                font-size: 132%;
+            }
+            #div1 h1{
+                margin:15px;
+            }
+            .imagentit{
+                display: block;
+                width: 100%;
+                max-width: 400px;
+                height: auto;
+            }
+            .cuerpo{
+                font-size: 145%;
+                line-height: 150%;
+            }
+            .titnoticias{
+                margin:30px;
+                font-size: 150%;
+            }
+            .notrec{
+                color: rgb(12, 12, 104);
+            }
+        </style>
+    </head>
+    <body style="background-color: #eeeeee;">
+        <nav>
+            <div id="nav">
+                <a href="index.html"><img src="img/logo.png"></a>
+                <a href="contactanos.html"><h1 style="margin-right: 40px;">Contacto</h1></a>
+                <a href="noticias.html"><h1>Noticias</h1></a>
+                <a href="modalidades.html"><h1>Educación</h1></a>
+                <a href="index.html"><h1 style="float: left;">E.E.S.T N°1 Gral. San Martín</h1></a>
+            </div>
+        </nav>
+
+        <div class="flex-box-lg flex-col-sm" style="display: flex; width: auto; flex-direction: row;">
+        <div id="div1">
+            <h1 class="tituloh1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est sunt facilis molestiae tenetur aliquam corporis cumque voluptates asperiores eveniet quos vero, laudantium vel amet? At necessitatibus nihil est natus molestias.</h1>
+            <br>
+            <h1 class="subtitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium iusto ab inventore nostrum! Assumenda distinctio a accusamus consequatur nemo qui illum, minima, libero possimus ullam provident, quae rerum quo? Veniam!</h1>
+            <br>
+            <center><img class="imagentit" src="img/imgPrincipal.png"></center>
+
+            <!--ESPECIFICAR EL ANCHO Y ALTO DE LA IMAGEN:
+                    ANCHO MAX:846PX
+                    LARGO MAX:400PX
+                INTENTAR USAR IMÁGENES HORIZONTALES :3
+            -->
+            
+            <br>
+            <h1 class="cuerpo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum velit, debitis reiciendis earum alias autem sunt, odio suscipit ipsum sint asperiores excepturi accusamus, voluptatem ratione eos pariatur. Nulla, eligendi mollitia!</h1>
+            <br>
+            <br>
+        </div>
+
+        <div id="div2"> 
+            <h1 class="titnoticias">ÚLTIMAS NOTICIAS</h1>
+            <ul style="margin-left: 10%;">
+                <li><a class="notrec" href="noticia1.html">Inauguración en la técnica</a></li>
+                <li><a class="notrec" href="noticia2.html"">Final de voley</a></li>
+                <li><a class="notrec" href="noticia3.html">Travestis en primavera</a></li>
+                <li><a class="notrec" href="noticia4.html">E.T. en Córdoba</a></li>
+                <li><a class="notrec" href="noticia5.html">Jubilación de Rivera</a></li>
+            </ul>
+        </div>
+    </div>  
+
+
+
+        <footer  id="foot">
+        <!--logo 150 largo y ancho. border 100%/100%-->
+        <!--<div style="position:absolute;height: 150px;width: 150px;border-radius: 100%/100%;display: flex;"><img src="img/logo.png"style="height: 150px;width: 150px;border-radius: 100%/100%;"></img></div>-->
+            <div style="display: flex;align-content: center;justify-content: center;">
+                <div style="display: flex;align-items: center;"><div style="height: 150px;width: 150px;border-radius: 100%/100%;"><img src="img/logo.png"style="height: 150px;width: 150px;border-radius: 100%/100%;"></img></div></div>
+                <ul style="float: right;margin-right: 3%;">
+                    <li style="font-size: 25px;"><a href="">Ayudas</a></li>
+                    <li><a href="">Soporte</a></li>
+                    <li><a href="">Contactos</a></li>
+                    <li><a href="">Derechos</a></li>
+                    <li><a href="">Terminos y Condiciones</a></li>
+                </ul>
+                <ul style="float:right;margin-right: 3%;">
+                    <li style="font-size: 25px;"><a href="">Acerca de</a></li>
+                    <li><a href="">Historia</a></li>
+                    <li><a href="">Desarrolladores</a></li>
+                    <li><a href="noticias.html">Noticias</a></li>
+                </ul>
+                <ul style="float:right;margin-right: 3%;">
+                    <li style="font-size: 25px;"><a href="">Redes</a></li>
+                    <center><li><a href="https://www.instagram.com/tecnica1grandbourg/"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/tecnica1grandbourg/?locale=es_LA"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li></center>
+                </ul>
+            </div>
+            <div style="display: flex;align-items: center;">
+                <div style="margin: 0 auto;">
+            <ul>
+                <li class="desarrolladores">Santiago Gerhart</li>
+                <li class="desarrolladores">Iván Bertolotti</li>
+                <li class="desarrolladores">Lucas Lizardo</li>
+                <li class="desarrolladores">Tiziano Flores</li>
+                <li class="desarrolladores">Axel Castronuovo</li>
+                <li class="desarrolladores">Valentín Lopez</li>
+            </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+    
+</html>

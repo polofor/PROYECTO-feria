@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+nav{
+			background-color: black;
+			width:100%;
+			height: 120px;
+			position: fixed;
+			z-index: 3;
+		}
+		nav div img{
+			height: 100px;	
+		}
+		.nombreNav{
+			color: white;
+			font-size: 20px;
+			margin: 20px;
+			
+		}
+		.contenedor{
+			display: flex;
+			margin-left: 50px;
+			margin-top: 10px;
+		}
+		.contenedor ul{
+			display: flex;
+			list-style: none;
+			color: white;
+			font-size: 25px;
+			margin-left: 20px;
+		}
+		.contenedor ul li{
+			padding-left: 40px;
+		}
+		.cambiaColor{
+			color: white;
+			transition: 0.5s;
+		}
+		.cambiaColor a{
+			color: white;
+			text-decoration: none;
+			transition: 0.5s;
+		}
+		.cambiaColor:hover{
+			transform:scale(1.1);
+			transition:0.5s;
+		}
+		.cambiaColor a:hover{
+			color: wheat;
+			transition: 0.25s;
+		}
+
+
+
+
+
+
+
+        footer{
+			margin-top: 40px;
+			background-color:black;
+			display: flex;
+		}
+		.divIconsFooter{
+			height: 60px;
+			margin-top:45px;
+			margin-left: 700px;
+		}
+		.iconFooter{
+			padding: 5px;
+			margin-left: -4px;
+			transition: 0.5s;
+		}
+		.iconFooter:hover{
+			transform: scale(1.1);
+			transition: 0.5s;
+		}
+		.parteDeAbajo{
+			height: 100px;
+			background-color: WHITE;
+		
+		}
+</style>
+<body>
+    <nav>
+		<div class="contenedor">
+				<img src="img/logo.png">
+				<a class="nombreNav">E.E.S.T n°1 <br>Grand Bourg</a>
+				<ul>
+				<li class="cambiaColor"><a href="index.html" >Inicio</a></li>
+				<li class="cambiaColor"><a href="noticias.html">Nuestra escuela</a></li>
+				<li class="cambiaColor"><a href="">Especialidades</a></li>
+				<li class="cambiaColor"><a href="">Noticias</a></li>
+				<li class="cambiaColor"><a href="">Contactanos</a></li>
+			</ul>
+		</div>
+	</nav>
+
+    <div class="mapswrapper">
+        <iframe width="600" height="450" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Escuela%20T%C3%A9cnica%20N1%20Grand%20Bourg%20Buenos%20Aires%20Argentina&zoom=10&maptype=roadmap">
+        </iframe>
+        <style>
+        .mapswrapper{background:#fff;padding-top: 160px; padding-left: 53%;}
+        .mapswrapper iframe{border:0;position:relative;z-index:2}
+        .mapswrapper a{color:rgba(0,0,0,0);position:absolute;left:0;top:0;z-index:0}
+        .contactos{
+            position: relative;
+            bottom: 300px;
+            right: 360px;
+            margin-bottom: -100px;
+        }
+        </style>
+    </div>
+    <center>
+    <div class="contactos">
+        <a style="font-size: 40px;">contactanos aqui! <br></a>
+        <a style="font-size: 20px; color: gray;line-height: 30px;">11312312321 <br> Escuela Tecnica N°1 de Grand Bourg| Buenos Aires| Argentina</a>
+    </div></center>
+
+    <footer>
+		<a href=""><img src="img/logo.png" style="width: 100px;margin:20px ;"></a><a href="" style="color: white; font-size: 20px; margin-top: 50px;text-decoration: none;">E.E.S.T. n°1 Grand Bourg <br> Gral Jose de San Martin</a>
+		<!--icons-->
+		<div class="divIconsFooter"><!---->
+			<a href=""><img class="iconFooter" src="img/icons8-instagram-50.png" style="background-color: rgb(35, 35, 35);"></a>
+			<a href=""><img class="iconFooter" src="img/icons8-facebook-nuevo-50.png" style="background-color: rgb(74, 74, 74);"></a>
+			<a href=""><img class="iconFooter" src="img/icons8-whatsapp-50.png" style="background-color: rgb(112, 112, 112);"></a>
+		</div>
+		<!--si hay mas redes sociales del colegio m avisan jajaxdlol-->
+		<div class="parteDeAbajo">
+
+		</div>
+	</footer>
+</body>
+</html>

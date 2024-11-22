@@ -1,0 +1,340 @@
+@media (max-width: 768px) { body { font-size: 90%; }}
+body{
+    margin: 0;
+    background-color:#003c5f;
+}
+/*b2ae9c 1b5d40*/
+@media (max-width: 768px) {
+    nav {
+        height: 10vh;
+        padding: 0 1%;
+    }
+}
+nav{
+    background-color: black;
+    width:100%;
+    height: 120px;
+    position: fixed;
+    z-index: 3;
+}
+nav div img{
+    height: 100px;	
+}
+.nombreNav{
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    
+}
+.contenedor{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.contenedor ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.contenedor ul li{
+    padding-left: 40px;
+}
+.cambiaColor{
+    color: white;
+    transition: 0.5s;
+}
+.cambiaColor a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.cambiaColor:hover{
+    transform:scale(1.1);
+    transition:0.5s;
+}
+.cambiaColor a:hover{
+    color: wheat;
+    transition: 0.25s;
+}
+.barraLateral{
+    position: fixed;
+    background-color: rgba(0, 0, 0,50%);
+    height: 155px;
+    width: 50px;
+    top:40%;
+    right: 0;
+    border-radius: 10px 0px 0px 10px;
+    z-index: 3;
+}
+.iconoBarraLateral{
+    width: 40px;
+    margin-top: 6.2px;
+    margin-left: 6px;
+    transition:0.5s;
+}
+.iconoBarraLateral:hover{
+    transform: scale(1.1);
+    transition:0.5s;
+}
+.imgPrincipal{
+    margin-top: 120px;
+    width: 40%;
+    height: 538px;
+    border-radius: 0px 50% 50% 0px;
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    
+}
+.imgTitulo{
+    width:250px;
+    left: 58%;
+    top:150px;
+    position:absolute;
+    z-index: -1;
+}
+.aTitulo{
+    position:absolute;
+    top: 420px;
+    right: 20px;
+    margin-right: 100px;
+    text-shadow: -1px 1px 5px rgba(0, 0, 0, 0.99);
+    text-align: center;
+}
+.descripcion{
+    background-color: #00588f;
+    height: 300px;
+    width: 50%;
+}
+.aDescripcion{
+    color: rgba(255, 255, 255, 50%);
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    line-height: 60px;
+}
+.divVideo{
+    width: 50%;
+    height: 300px;
+    background-color:#00588f;
+}
+.video{
+    width: 98%; 
+    height: 290px; 
+    margin: 5px;
+}
+.contenedorVideo{
+    display: flex;
+    padding-top: 100px;
+}
+.verMas{
+    background-color:#00588f;
+    width: 50%;
+    margin-left: 25%;
+    height: 300px;
+    border-radius: 0px 0px 250px 250px;
+    display: flex;
+    flex-direction: column;
+}
+.aVerMas{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+.buttonVerMas{
+    height: 50px;
+    width: 200px;
+    margin-top: 80px;
+    border-radius: 20px;
+    background-color:#003c5f;
+    color: white;
+    font-size: 20px;
+    border: 1px solid black;
+    transition:0.5s;
+}
+.buttonVerMas:hover{
+    cursor:pointer;
+    background-color:white;
+    color:black;
+    transform: scale(1.1);
+    transition:0.5s;
+    border: 0px;
+}
+.tituloModalidades{
+    background-color:#00588f;
+    height: 100px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 20px 20px 0px 0px;
+}
+.divModalidades{
+    display: flex;
+    background-color: #00588f;
+    padding: 30px;
+}
+.cardsModalidades{
+    height: 500px;
+    width: 35%;
+    margin-left: 10%;
+    background-color: #00588f	;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+.iconModalidades{
+    width: 100%;
+    height: 450px;
+}
+.aModalidades{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+}
+.cardsModalidades:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: rgba(0, 60, 95, 50%);
+    }
+.sombraRoja:hover{
+    box-shadow: 0px 0px 5px 5px blue;
+    -webkit-box-shadow:0px 0px 5px 5px blue;
+    -moz-box-shadow:0px 0px 5px 5px blue;
+
+}
+.sombraAzul:hover{
+    box-shadow: 0px 0px 5px 5px white;
+    -webkit-box-shadow:0px 0px 5px 5px white;
+    -moz-box-shadow:0px 0px 5px 5px white;
+
+}
+footer{
+    margin-top: 100px;
+    background-color:black;
+    display: flex;
+}
+.divIconsFooter{
+    height: 60px;
+    margin-top:45px;
+    margin-left: 700px;
+}
+.iconFooter{
+    padding: 5px;
+    margin-left: -4px;
+    transition: 0.5s;
+}
+.iconFooter:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.parteDeAbajo{
+    height: 100px;
+    background-color: WHITE;
+
+}
+.contenedorInfoRelleno{
+    margin-top: 50px;
+    margin-right: 1%;
+    margin-left: 1%;
+    width: 98%;
+    height: 200px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.divInfoRelleno{
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s;
+}
+.divInfoRelleno:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.bgDivIR1{
+    background-color: #D2691E;
+}
+.bgDivIR2{
+    background-color: #4682B4;
+}
+.bgDivIR3{
+    background-color: #228B22;
+}
+.bgDivIR4{
+    background-color: #A0522D;
+}
+.bgDivIR5{
+    background-color: #800000;
+}
+.divNoticias{
+    background-color:#00588f; 
+    width: 33%;
+    margin-left: 33%;
+    height: 100px;
+    margin-top: 100px;
+    border-radius: 20px 20px 0px 0px;
+}
+.divNoticias::before{
+    content: "NOTICIAS";
+    font-size: 30px;
+    position: relative;
+    color: white;
+    top: 35%;
+    left: 35%;
+}
+.contenedorNoticias{
+    background-color: #00588f;
+    width: 100%;
+    height: 500px;
+    margin-top: 0px;
+}
+.imgNoticias{
+    width: 300px;
+    height: 192px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.imgNoticiasGrande{
+    width: 600px;
+    height: 400px;
+    margin:50px;
+    margin-left: 45px;
+    background-image: url(img/diaEstudiante.jpg);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.contenedorNot{
+    width:630px;
+    position: relative;
+    bottom: 453.5px;
+    left: 640px;
+    margin-left: 25px;
+    
+}
+.imgNoticiasGrande:hover{
+    transform: scale(1.1);
+    opacity: 70%;
+    transition: 0.5s;
+}
+.imgNoticias:hover{
+    transform: scale(1.1);
+    opacity: 70%;
+    transition: 0.5s;
+}

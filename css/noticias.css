@@ -1,0 +1,165 @@
+/* Estilos generales */
+body {
+  
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+}
+
+#nav{
+  width: auto;
+  height: 80px;
+  background-color: #006c84;
+  
+}
+nav div img{
+  height: 60px;
+  width: 60px;
+  margin: 8px;
+  float: left;
+}
+nav div h1{
+  float: right;
+  font-size: 20px;
+  margin: 2%;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+
+
+footer ul{
+  float:left;
+  font-size: 18px;
+  color: white;
+  list-style: none;
+  font-weight: lighter;
+  margin-top: 30px;
+}
+footer ul li:hover{
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+footer ul li a:hover{
+  color: #f5be41;
+  transition:0.4s;
+}
+footer ul li a{
+  transition:0.4s
+
+}
+footer ul li{
+  margin-top: 10px;
+  transition:0.4s;
+}
+.desarrolladores{
+  float:left;
+  margin-left: 30px;
+  margin-right:30px;
+  font-size: 15px;
+  color: gainsboro;
+  
+}
+#foot{
+  width: auto;
+  height: 330px;
+  background-color: #006c84;
+  clear: both;
+  
+}
+
+
+
+
+/* Contenedor de noticias */
+.news-container {
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 2%;
+}
+
+/* Estilos para las tarjetas */
+.card {
+  background: #f5f3f3;
+  border: 1px solid #006c84;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content h2 {
+  margin: 0 0 10px;
+  color: #006c84;
+;
+}
+
+.card-content p {
+  margin: 0 0 15px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color:  #006c84;
+  
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #0033aa;
+}
+
+/* Diseño responsive */
+@media (max-width: 768px) {
+  .news-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.botton{
+  padding: 10px 20px; /* Espaciado interno */
+  font-size: 16px; /* Tamaño de texto */
+  font-family: Arial, sans-serif; /* Fuente limpia */
+  font-weight: bold; /* Texto en negrita */
+  color: white; /* Color del texto */
+  background-color: #1c117e; /* Fondo azul */
+  border: none; /* Sin bordes */
+  border-radius: 25px; /* Bordes completamente redondeados */
+  cursor: pointer; /* Cursor interactivo */
+  box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  transition: all 0.3s ease; /* Transiciones suaves */
+}
+
+.botton:hover {
+  background-color: #e2ab12; /* Fondo azul más oscuro al pasar el mouse */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+  transform: translateY(-6px); /* Efecto de elevación */
+}
